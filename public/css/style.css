@@ -1,0 +1,173 @@
+body{
+    background-color: #70C1B3;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+
+header > h1{
+    color: #25272E;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge{
+    background: #FF1654;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: sans-serif;
+}
+
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result > p{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.choices{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.choice{
+    padding: 10px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    left: 50%;
+    margin-left: 130px;
+}
+
+.choice img{
+    object-fit: cover;
+    width: 260px;
+    height: 200px;
+}
+
+#p{
+    flex: 1;
+}
+
+#s{
+    flex: 1;
+}
+
+#r{
+    flex: 1;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #247BA0;
+}
+
+#action-message{
+    text-align: center;
+    color: #FF1654;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+
+#text{
+    color: yellow;
+}
+
+
+h5{
+    color: #FF1654;
+}
+
+.btn-primary{
+    background-color: #247BA0;
+}
+
+.footer {
+    height: 50px;
+    padding-top: 100px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+
+#pp{
+    display: none;
+    color: #FF1654;
+}
+
+.history{
+    display: flex;
+}
+
+.item{
+    /* flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px; */
+}
+
+.history{
+    text-align: center;
+}
+
+.h11{
+    display: inline-block;
+}

@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+.cc{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 450px;
+    height: auto;
+}
+
+.card-body, .list-group{
+    text-align: center;
+}
+
+.btn{
+    margin-right: 20px;
+}

@@ -1,0 +1,84 @@
+<div class="container">
+<div class="row mt-5">
+        <div class="col-md-6 m-auto">
+          <div class="card card-body">
+            <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>  Login</h1>
+            <% include ./partials/messages %>
+            <form action="/users/login" method="POST">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <p class="lead mt-4">
+              No Account? <a href="/users/register">Register</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- <div class="container">
+
+<% include ./partials/messages %>
+<form class="form-signin" action="/users/login" method="POST">
+  <div class="form-group text-center mb-4">
+    <img class="mb-4" src="images/logo3.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Rock Paper Scissors Tournament</h1>
+        <p>Log In and prove your talent!</p>
+  </div>
+
+  <div class="form-label-group">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      class="form-control"
+      placeholder="Enter Email"
+    />
+  </div>
+
+  <div class="form-label-group">
+    <label for="password">Password</label>
+    <input
+    type="password"
+    id="password"
+    name="password"
+    class="form-control"
+    placeholder="Enter Password"
+    />
+  </div>
+
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+
+  <div>
+    <p>Dont't have an account? No problem. <a href="/users/register">Register now</a>.</p>
+  </div>
+
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
+</form>
+
+</div> -->
